@@ -1,0 +1,133 @@
+<html>
+<head>
+<title>publish the invitation by NAO</title>
+<link rel="stylesheet" type="text/css" href="form.css">
+
+<style>
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin: 0;
+  position:absolute;
+  top: 10%;
+  left:1%;
+  float:right;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.button1{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin: 0;
+  position:absolute;
+  top: 10%;
+  left:90%;
+  float:right;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+</style>
+<script type="text/javascript">
+		function preventBack(){
+		window.history.forward();
+		}
+		setTimeout("preventBack()",0);
+		window.onunload=function(){null};
+</script>
+
+</head>
+<body>
+<form name="myform"  action="publish.php" method="POST" >
+<div class="container">
+<h1>Publish the Notice</h1>
+<div class="heading">
+<label>Heading of the Invitation</label>
+<input type="text" name="invite" placeholder="Heading of Invitation" required="">
+</div>
+
+<div class="date">
+<label>Date of Event</label>
+<input type="date" name="date" Placeholder="Date of Event" required="">
+<label>Day of Event</label>
+<input type="text" name="day" Placeholder="Day of Event" required="">
+<label>Entrance fees</label>
+<input type="text" name="fees" Placeholder="Entrance Fees" required="">
+</div>
+
+<div class="firstprice">
+<label>First Prize</label>
+<input type="text" name="firstprize" Placeholder="Enter 1st Prize" required="">
+<label>Provider of First Prize</label>
+<input type="text" name="provider1" Placeholder="Provider of 1st Prize" required="">
+</div>
+
+<div class="secondprice">
+<label>Second Prize</label>
+<input type="text" name="secondprize" Placeholder="Enter 2nd Prize" required="">
+<label>Provider of Second Prize</label>
+<input type="text" name="provider2" Placeholder="Provider of 2nd Prize" required="">
+</div>
+
+<div class="thirdprice">
+<label>Third Prize</label>
+<input type="text" name="thirdprize" Placeholder="Enter 3rd Prize" required="">
+<label>Provider of Third Prize</label>
+<input type="text" name="provider3" Placeholder="Provider of 3rd Prize" required="">
+</div>
+
+<div class="fourthprice">
+<label>Fourth Prize</label>
+<input type="text" name="fourthprize" Placeholder="Enter 4th Prize" required="">
+<label>Provider of Fourth Prize</label>
+<input type="text" name="provider4" Placeholder="Provider of 4th Prize" required="">
+</div>
+
+<div class"note">
+<h3>Note</h3>
+
+<textarea cols="80" rows="5" value="address1">  
+</textarea>
+</div>
+
+<div class="gift">
+<h3>Gift Providers</h3>
+<textarea cols="80" rows="5" value="address2">  
+</textarea>
+</div>
+
+<div class="bus">
+<h3>Bus Route</h3>
+<textarea cols="80" rows="5" value="address3">  
+</textarea>
+
+</div>
+</div>
+<br>
+<input type="submit" name="" value="Submit">
+
+            <br></br>
+
+			
+</form>
+<a href="signup.html" class="button">INVITATIONS</a>
+
+<a href="index.html" class="button1">HOME</a>
+
+</body>
+</html>

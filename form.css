@@ -1,0 +1,166 @@
+.container {  
+    padding: 50px;  
+  background-color:lightgreen;  
+}  
+.heading input[type=text], input[type=password] {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+
+.heading label{
+	color:blue;
+	font-size:20px;
+	font-weight: bold;
+	font-family: "Sofia", sans-serif;
+
+}
+
+h1{
+	text-align:center;
+	color:Green;
+	font-weight: bold;
+	font-family: "Sofia", sans-serif;
+}
+
+.date input[type=text], input[type=password] {  
+  width: 40%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+.date label{
+	color:blue;
+	font-size:17px;
+	font-weight: bold;
+	font-family: "Sofia", sans-serif;
+
+}
+
+.firstprice input[type=text], input[type=password] {  
+  width: 39%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+.firstprice label{
+	color:blue;
+	font-size:17px;
+	font-weight: bold;
+	font-family: "Sofia", sans-serif;
+
+}
+
+.secondprice input[type=text], input[type=password] {  
+  width: 37%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+.secondprice label{
+	color:blue;
+	font-size:17px;
+	font-weight: bold;
+	font-family: "Sofia", sans-serif;
+
+}
+
+.thirdprice input[type=text], input[type=password] {  
+  width: 38%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+.thirdprice label{
+	color:blue;
+	font-size:17px;
+	font-weight: bold;
+	font-family: "Sofia", sans-serif;
+
+}
+
+.fourthprice input[type=text], input[type=password] {  
+  width: 37%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+.fourthprice label{
+	color:blue;
+	font-size:17px;
+	font-weight: bold;
+	font-family: "Sofia", sans-serif;
+
+}
+.note input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+  color:blue;
+}
+h3{
+		color:blue;
+
+	font-size:17px;
+	font-weight: bold;
+	font-family: "Sofia", sans-serif;
+}  
+a
+{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: #006600;
+	text-align: center;
+}
+p{
+    color: #006600;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    margin-bottom:20px;
+}
+
+ input[type="text"], input[type="password"] ,input[type="email"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #673ab7;
+    font-size: 16px;
+}
+
+input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #66ff33;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+
+
+input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #66ff33;
+}
